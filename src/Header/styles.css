@@ -1,0 +1,43 @@
+.Navbar {
+  background: #fec5a8;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Navbar_title {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.Navbar_title-firts {
+  font-size: 24px;
+}
+
+.Navbar_title-second {
+  font-size: 14px;
+}
+
+.Navbar_main-container {
+  align-self: flex-end;
+  width: 50%;
+}
+
+.Navbar_main-menu {
+  align-self: flex-end;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.Navbar_contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25%;
+}
